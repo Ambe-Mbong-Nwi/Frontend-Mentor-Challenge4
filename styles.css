@@ -7,6 +7,7 @@
 body{
     background-color: hsl(0, 0%, 95%);
     max-width: 1440px;
+    margin: 0 auto;
 }
 
 main{
@@ -52,7 +53,10 @@ p{
     font-weight: 400px;
 }
 
-button{
+a{
+    display: block;
+    text-decoration: none;
+    text-align: center;
     background-color: hsl(0, 0%, 95%);
     color: hsl(31, 77%, 52%);
     padding: 15px 35px;
@@ -61,29 +65,29 @@ button{
     border: 0;
 }
 
-.two button{
+.two a{
     color:hsl(184, 100%, 22%)
 }
 
-.three button{
+.three a{
     color: hsl(179, 100%, 13%);
 }
 
 /*active state styles*/
 
-.one button:hover{
+.one a:hover{
     background-color: hsl(31, 77%, 52%);
     color:hsl(0, 0%, 95%);
     border: 2px solid hsl(0, 0%, 95%);
 }
 
-.two button:hover{
+.two a:hover{
     background-color: hsl(184, 100%, 22%);
     border: 2px solid hsl(0, 0%, 95%);
     color: hsl(0, 0%, 95%);
 }
 
-.three button:hover{
+.three a:hover{
     background-color: hsl(179, 100%, 13%);
     border: 2px solid hsl(0, 0%, 95%);
     color: hsl(0, 0%, 95%);
